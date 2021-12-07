@@ -1,0 +1,24 @@
+.bg-home  {
+  background-image: url("images/back.png");
+  background-repeat: no-repeat;
+  background-color: #cccccc;
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+.center-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+.center-button {
+  text-align: center;
+}
